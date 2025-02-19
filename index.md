@@ -1,4 +1,6 @@
-# AmbatuFinance
+# Xplorium
+
+
 ## Sulaiman Fawwaz Abdullah Karim - NIM
 ## Rani Nirmala Prakoso - 22/493982/TK/54153
 ## Abyyu Abdul Razhim - NIM
