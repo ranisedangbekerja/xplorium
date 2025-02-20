@@ -1,48 +1,53 @@
 # Xplorium
 
+## 📌 Tentang Xplorium
+Xplorium adalah platform Web Generative AI yang dirancang khusus untuk anak-anak. 
+Platform ini memberikan lingkungan aman dan ramah bagi anak-anak untuk mengeksplorasi kreativitas mereka menggunakan teknologi AI generatif. Dengan sistem pengawasan orang tua dan fitur pelacakan aktivitas, Xplorium memastikan pengalaman yang edukatif, menginspirasi, dan aman bagi anak-anak dalam dunia digital.
 
-## Sulaiman Fawwaz Abdullah Karim - NIM
-## Rani Nirmala Prakoso - 22/493982/TK/54153
-## Abyyu Abdul Razhim - NIM
+---
 
-## Departemen Teknik Elektro dan Teknologi Informasi, Fakultas Teknik, Universitas Gadjah Mada
-### Nama Produk : Xplorium
-### Latar Belakang : 
-Di era digital yang terus berkembang, kecerdasan buatan (AI) telah menjadi bagian dari 
-kehidupan sehari-hari. Anak-anak pun semakin akrab dengan teknologi, menggunakan 
-berbagai aplikasi untuk belajar dan bermain. Namun, apakah semua AI aman dan cocok 
-untuk mereka? Banyak AI generatif yang tersedia saat ini, seperti OpenAI, dibuat untuk 
-pengguna umum dan tidak sepenuhnya dirancang dengan mempertimbangkan 
-kebutuhan serta keamanan anak-anak. AI ini bisa menghasilkan konten yang tidak sesuai, 
-sulit dipahami, atau bahkan tidak aman bagi mereka. Selain itu, anak-anak sering kali 
-bingung harus mencari inspirasi atau sumber proyek dari mana, sehingga kreativitas 
-mereka tidak tersalurkan dengan optimal.
+## 🎯 Latar Belakang
+Di era digital yang semakin maju, anak-anak semakin akrab dengan teknologi AI. Namun, banyak AI generatif saat ini dibuat untuk pengguna umum dan tidak dirancang khusus untuk anak-anak, yang dapat berisiko dalam hal:
 
-### Ide Solusi : 
-Dalam era AI yang semakin canggih, anak-anak memiliki kesempatan luar biasa untuk 
-mengeksplorasi kreativitas mereka dengan teknologi generatif. Namun, keamanan tetap 
-menjadi prioritas utama. AI generatif seperti OpenAI belum dirancang khusus untuk 
-anak-anak, sehingga bisa menghasilkan konten yang tidak sesuai atau sulit dipahami. 
-Selain itu, orang tua dan guru seringkali kesulitan memantau aktivitas anak dalam 
-menggunakan AI. Untuk mengatasi hal ini, kami menghadirkan Web Generative AI untuk 
-Anak-anak, sebuah platform yang aman, ramah anak, dan memiliki sistem tracking 
-aktivitas. Dengan AI yang telah disaring dan dikontrol, anak-anak dapat dengan bebas 
-membuat proyek kreatif tanpa risiko mendapatkan konten yang tidak pantas. Orang tua 
-dan guru juga dapat mengawasi penggunaan AI secara real-time melalui fitur tracking 
-yang transparan dan mudah diakses. Dengan pendekatan ini, teknologi AI dapat menjadi 
-alat edukatif yang mendukung eksplorasi anak dalam lingkungan yang aman dan terarah. 
+- **Keamanan & Konten Tidak Sesuai** – Beberapa AI generatif dapat menghasilkan konten yang sulit dipahami atau tidak aman.
+- **Kurangnya Pengawasan** – Orang tua dan guru kesulitan mengontrol interaksi anak dengan AI.
+- **Minimnya Sumber Inspirasi** – Anak-anak sering bingung dalam menemukan ide proyek kreatif.
 
-### 📊 Analisis Kompetitor
+Oleh karena itu, kami menghadirkan **Xplorium**, platform AI generatif yang aman dan mendukung eksplorasi kreativitas anak-anak.
 
-| Nama Kompetitor  | Jenis Produk | Target Pengguna | Kelebihan | Kekurangan | Keunggulan Kompetitif | Link |
-|-----------------|-------------|----------------|-----------|------------|----------------------|------|
-| **Brilliant**  | Platform pembelajaran interaktif berbasis sains & matematika | Pelajar, mahasiswa, profesional | ✔️ Kursus berbasis problem-solving <br> ✔️ Konten berkualitas tinggi <br> ✔️ Berbasis komunitas <br> ✔️ Model freemium (beberapa konten gratis) | ❌ Tidak dirancang khusus untuk anak-anak <br> ❌ Tidak ada fitur parental control <br> ❌ Antarmuka lebih cocok untuk remaja & dewasa <br> ❌ Fitur premium berbayar | 🎯 Fokus pada pembelajaran berbasis problem-solving & komunitas pembelajar aktif | [🔗 Website](https://brilliant.org/) |
-| **AI Explorers – Jelajah Teknologi** | Program interaktif pengenalan AI untuk siswa SD | Siswa SD kelas 1–6 | ✔️ Kurikulum edukatif terstruktur <br> ✔️ Modul interaktif (coding visual, eksperimen kreatif) <br> ✔️ Pembelajaran personal one-to-one | ❌ Tidak ada fitur AI generatif <br> ❌ Akses terbatas & tidak tersebar luas <br> ❌ Tidak jelas apakah tersedia online | 🎯 Pembelajaran personal sesuai gaya belajar anak | [🔗 Website](https://binaakhlakdigital.id/ai-for-everyone-teknologi-untuk-semua/) |
-| **TalkToLearn Kids – AI Tutor** | Aplikasi mobile berbasis AI dengan interaksi suara | Anak-anak usia SD | ✔️ Interaksi berbasis suara <br> ✔️ Didukung oleh GPT-4 OpenAI <br> ✔️ Fokus pada keamanan & privasi | ❌ Memerlukan perangkat & internet stabil <br> ❌ Risiko informasi tidak akurat tanpa pengawasan <br> ❌ Tidak ada fitur pelacakan progres belajar | 🎯 Pembelajaran natural dengan interaksi berbasis suara | [🔗 Aplikasi](https://play.google.com/store/apps/details?id=com.talktolearnkids.app&hl=id) |
+---
+
+## 💡 Solusi: Xplorium
+**Xplorium** adalah solusi inovatif yang menawarkan:
+✅ **AI Generatif Aman** – Sistem AI yang telah difilter agar ramah anak.
+✅ **Pelacakan Aktivitas** – Orang tua dan guru dapat memantau interaksi anak secara real-time.
+✅ **Proyek Kreatif Berbasis Minat** – Rekomendasi aktivitas yang sesuai dengan minat anak.
+✅ **Antarmuka Ramah Anak** – Desain UI/UX yang mudah dipahami oleh anak-anak.
+
+---
+
+## 🔍 Analisis Kompetitor
+| Nama Kompetitor  | Jenis Produk | Target Pengguna | Kelebihan | Kekurangan |
+|-----------------|-------------|----------------|-----------|------------|
+| **Brilliant** | Platform pembelajaran interaktif berbasis sains & matematika | Pelajar, mahasiswa | ✔️ Kursus problem-solving <br> ✔️ Model freemium | ❌ Tidak khusus untuk anak-anak <br> ❌ Tidak ada parental control |
+| **AI Explorers** | Program edukatif AI | Siswa SD | ✔️ Kurikulum edukatif terstruktur | ❌ Tidak ada fitur AI generatif <br> ❌ Akses terbatas |
+| **TalkToLearn Kids** | AI Tutor berbasis suara | Anak SD | ✔️ Berbasis suara <br> ✔️ Privasi terjaga | ❌ Memerlukan koneksi internet stabil <br> ❌ Tidak ada pelacakan progres |
+
+---
 
 ## 🚀 Keunggulan Xplorium Dibanding Kompetitor
+✅ **Dibuat khusus untuk anak-anak** – Aman dan dikontrol orang tua.  
+✅ **Eksplorasi kreatif tanpa batas** dengan AI generatif yang disaring.  
+✅ **Pelacakan progres belajar** untuk meningkatkan pengalaman edukatif.  
+✅ **Inspirasi berbasis minat** untuk terus mendorong kreativitas anak-anak.  
 
-✅ **Dirancang khusus untuk anak-anak** dengan keamanan & kontrol orang tua.  
-✅ **Fitur AI Generatif** untuk eksplorasi kreatif tanpa batas.  
-✅ **Pelacakan progres belajar** untuk meningkatkan keterlibatan anak-anak.  
-✅ **Rekomendasi proyek berbasis minat** agar anak-anak selalu terinspirasi.  
+---
+
+## 📌 Website & Kontak
+🌐 **Website**: [www.xplorium.ai](https://www.xplorium.ai)  
+📩 **Email**: support@xplorium.ai  
+📱 **Sosial Media**: [Instagram](https://instagram.com/xplorium) | [Twitter](https://twitter.com/xplorium)  
+
+---
+
+✨ **Jelajahi kreativitas tanpa batas dengan Xplorium!**
