@@ -19,5 +19,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
+          cache-dependency-path: xplorium/package-lock.json
       - run: npm i
+        working-directory: xplorium
       - run: npm run build
+        working-directory: xplorium
