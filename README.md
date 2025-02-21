@@ -5,6 +5,6 @@ Kelompok Xplorium
 
 Ketua Kelompok :
 
-Anggota 1:
+Anggota 1: Rani Nirmala Prakoso 22/493982/TK/54153
 
 Anggota 2:
