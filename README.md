@@ -7,4 +7,4 @@ Ketua Kelompok : Sulaiman Fawwaz Abdillah Karim 22/493813/TK/54120
 
 Anggota 1: Rani Nirmala Prakoso 22/493982/TK/54153
 
-Anggota 2:
+Anggota 2: Abyyu Abdul Azhim Raihan 22/497717/TK/54562
