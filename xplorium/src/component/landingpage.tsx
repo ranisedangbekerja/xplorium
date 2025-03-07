@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { Press_Start_2P } from 'next/font/google';
 import { useState } from 'react';
+import { useRouter } from "next/navigation";
 
 // Gunakan font di proyek
 const pressStart2P = Press_Start_2P({
@@ -12,6 +13,7 @@ const pressStart2P = Press_Start_2P({
 });
 
 const LandingPage = () => {
+  const router = useRouter();
   const [bgColor, setBgColor] = useState("#D00000"); // Warna awal tombol
 
   return (
@@ -42,6 +44,7 @@ const LandingPage = () => {
         }}
         onMouseEnter={() => setBgColor("#B00000")} // Warna saat hover
         onMouseLeave={() => setBgColor("#D00000")} // Kembali ke warna awal
+        onClick={() => router.push("/register")} // Arahkan ke /register
       >
         Get Started
       </button>
