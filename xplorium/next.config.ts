@@ -1,8 +1,9 @@
-const nextConfig = {
+import { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
   experimental: {
-    appDir: true,
+    // appDir: true, // Gunakan hanya jika memakai App Router
   },
-  srcDir: "src",
 };
 
 export default nextConfig;

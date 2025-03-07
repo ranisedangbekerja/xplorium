@@ -12,8 +12,17 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        press: ["'Press Start 2P'", "cursive"],
+      },
+      backgroundImage: {
+        landing: "url('/documentation/landingpage pixel.jpg')",
+        cloud: "url('/documentation/awan pixel.png')",
+        "sun-cloud": "url('/documentation/awan matahari pixel.png')",
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
