@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { Press_Start_2P } from 'next/font/google';
 import { useState } from 'react';
 import { useRouter } from "next/navigation";
+import Navbar from "@/components/Navbar";
 
 // Gunakan font di proyek
 const pressStart2P = Press_Start_2P({
@@ -18,6 +19,8 @@ const LandingPage = () => {
 
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen bg-gray-900">
+      {/* Navbar */}
+      <Navbar />
       {/* Hero Image */}
       <div className="w-full h-1/3">
         <Image
@@ -31,7 +34,7 @@ const LandingPage = () => {
 
       {/* Get Started Button */}
       <button
-        className={`fixed bottom-4 right-4 px-6 py-3 rounded-full text-white font-semibold 
+        className={`fixed top-[75%] left-1/2 -translate-x-1/2 px-6 py-3 rounded-full text-white font-semibold 
                     transition-all duration-200 shadow-lg active:shadow-xl active:scale-95 focus:outline-none
                     ${pressStart2P.className}`}
         style={{

@@ -1,6 +1,6 @@
 import React from "react";
-import SignupPage from "@/component/SignIn";
+import SignUpPage from "@/components/SignUpPage"; // Ensure path is correct
 
 export default function RegisterPage() {
-  return <SignupPage />;
+    return <SignUpPage />;
 }
