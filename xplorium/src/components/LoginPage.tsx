@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import { SignUpForm } from "./SignUpForm";
+import { LoginForm } from "./LoginForm";
 import { useRouter } from "next/navigation";
 
-export const SignUpPage: React.FC = () => {
+export const LoginPage: React.FC = () => {
   const router = useRouter();
   return (
     <main className="overflow-hidden w-full bg-white">
@@ -18,14 +18,14 @@ export const SignUpPage: React.FC = () => {
               onClick={() => router.back()}
             />
 
-            <SignUpForm />
+            <LoginForm />
           </div>
         </section>
 
         {/* Bagian Kanan (Gambar Full) */}
         <section className="w-6/12 h-screen max-md:w-full">
           <img
-            src="/signup.jpg"
+            src="/login.jpg"
             className="object-cover w-full h-full"
             alt="Sign up illustration"
           />
@@ -35,4 +35,4 @@ export const SignUpPage: React.FC = () => {
   );
 };
 
-export default SignUpPage;
+export default LoginPage;

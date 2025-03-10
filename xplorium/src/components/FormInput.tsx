@@ -1,10 +1,9 @@
-"use client";
 import React from "react";
 
 interface FormInputProps {
   label: string;
   type?: string;
-  className?: string;
+  className?: string; // Tambahkan className di props
 }
 
 export const FormInput: React.FC<FormInputProps> = ({
@@ -16,7 +15,7 @@ export const FormInput: React.FC<FormInputProps> = ({
     <input
       type={type}
       placeholder={label}
-      className={`px-6 py-7 mt-9 font-bold text-xl leading-tight rounded-xl bg-neutral-400 bg-opacity-30 w-full ${className}`}
+      className={`border border-gray-300 rounded-lg px-4 py-2 w-full ${className}`}
     />
   );
 };
