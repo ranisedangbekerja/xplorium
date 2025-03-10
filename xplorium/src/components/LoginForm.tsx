@@ -13,12 +13,11 @@ const pressStart2P = Press_Start_2P({
   display: "swap",
 });
 
-export const SignUpForm: React.FC = () => {
+export const LoginForm: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission
   };
-
   const router = useRouter();
 
   return (
@@ -31,18 +30,12 @@ export const SignUpForm: React.FC = () => {
         className={`text-lg text-center mb-6 leading-tight text-black 
                     ${pressStart2P.className}`}
       >
-        Sign Up to Xplorium
+        Login to Xplorium
       </h1>
 
       {/* Input Field */}
       <FormInput
-        label="Username"
-        className={`mt-4 h-14 w-full text-[10px] border-gray-300 ${pressStart2P.className}`}
-      />
-
-      <FormInput
-        label="Email Address"
-        type="email"
+        label="Username or Email"
         className={`mt-4 h-14 w-full text-[10px] border-gray-300 ${pressStart2P.className}`}
       />
 
@@ -60,7 +53,7 @@ export const SignUpForm: React.FC = () => {
                     hover:bg-gray-800 transition-all duration-200 
                     active:scale-95 ${pressStart2P.className}`}
       >
-        Sign Up
+        Login
       </button>
 
       {/* Tombol Sign Up dengan Google */}
@@ -68,11 +61,11 @@ export const SignUpForm: React.FC = () => {
 
       {/* Login Link */}
       <div className="flex justify-center gap-2 mt-5 text-xs">
-        <p>Already have an account?</p>
+        <p>Don't have an account?</p>
         <button className="font-medium underline text-blue-600 hover:text-blue-800"
-        onClick={() => router.push("/login")}
+        onClick={() => router.push("/register")} 
         >
-          Login
+          Sign Up
         </button>
       </div>
     </form>

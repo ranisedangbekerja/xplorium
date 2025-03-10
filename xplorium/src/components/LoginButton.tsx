@@ -2,6 +2,7 @@
 
 import { Press_Start_2P } from "next/font/google";
 import { useState } from 'react';
+import { useRouter } from "next/navigation";
 
 const pressStart2P = Press_Start_2P({
   weight: "400",
@@ -15,10 +16,12 @@ interface LoginButtonProps {
 
 export const LoginButton: React.FC<LoginButtonProps> = ({ onClick }) => {
   const [bgColor, setBgColor] = useState("#FFFFFF"); // Default warna putih
+  const router = useRouter();
 
   return (
     <button
-      onClick={onClick}
+      
+      onClick={() => router.push("/login")}
       onMouseEnter={() => setBgColor("#000000")} // Warna saat hover (hitam)
       onMouseLeave={() => setBgColor("#FFFFFF")} // Kembali ke putih saat dilepas
       className={`px-4 py-2 mr-5 text-[10px] font-['Press_Start_2P'] rounded-full shadow-md 
