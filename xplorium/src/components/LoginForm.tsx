@@ -1,10 +1,11 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { FormInput } from "./FormInput";
 import { PasswordInput } from "./PasswordInput";
-import { SocialSignUp } from "./SocialSignUp";
+// import { SocialSignUp } from "./SocialSignUp";
 import { Press_Start_2P } from "next/font/google";
 import { useRouter } from "next/navigation";
+import { SocialLogin } from "./SocialLogin";
 
 // Gunakan font Press Start 2P
 const pressStart2P = Press_Start_2P({
@@ -14,11 +15,45 @@ const pressStart2P = Press_Start_2P({
 });
 
 export const LoginForm: React.FC = () => {
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission
-  };
+  const [usernameOrEmail, setUsernameOrEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+
   const router = useRouter();
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    setError("");
+
+    try {
+      console.log("Sending login request...");
+      const response = await fetch("/api/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ usernameOrEmail, password }),
+      });
+
+      console.log("Response status: ", response.status)
+
+      const data = await response.json();
+      console.log("Response data: ", data);
+
+      if (!response.ok) {
+        setError(data.error);
+        return;
+      } else {
+        console.log("Login success");
+        // Redirect to chatroom on success
+        router.push("/chatroom");
+      }
+
+
+    } catch (error) {
+      console.error("Login request failed", error);
+      setError("Something went wrong. Please try again");
+    }
+  };
 
   return (
     <form
@@ -35,20 +70,27 @@ export const LoginForm: React.FC = () => {
 
       {/* Input Field */}
       <FormInput
+        name="username_or_email"
+        value={usernameOrEmail}
         label="Username or Email"
+        onChange={(e) => setUsernameOrEmail(e.target.value)}
         className={`mt-4 h-14 w-full text-[10px] border-gray-300 ${pressStart2P.className}`}
       />
 
       <PasswordInput
+        name="password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
         className={`mt-4 h-14 w-full text-[10px] border-gray-300 ${pressStart2P.className}`}
       />
 
       {/* Garis pemisah */}
       <div className="shrink-0 mt-6 border border-black h-[1.5px]" />
 
-      {/* Tombol Sign Up */}
+      {/* Tombol Login Up */}
       <button
         type="submit"
+        // onClick={handleSubmit}
         className={`px-4 py-3 mt-6 text-xs text-white bg-black rounded-md 
                     hover:bg-gray-800 transition-all duration-200 
                     active:scale-95 ${pressStart2P.className}`}
@@ -57,7 +99,8 @@ export const LoginForm: React.FC = () => {
       </button>
 
       {/* Tombol Sign Up dengan Google */}
-      <SocialSignUp />
+      {/* <SocialSignUp /> */}
+      <SocialLogin />
 
       {/* Login Link */}
       <div className="flex justify-center gap-2 mt-5 text-xs">
