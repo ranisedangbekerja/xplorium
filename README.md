@@ -16,7 +16,7 @@
 
 ## Docummentation ✍️
 1. [PPT](https://docs.google.com/presentation/d/1BllxxC4Jha3ERMONydiuOy792120HmaYUzwD-2oi50g/edit?usp=sharing)
-2. [Website]()
+2. [Website](https://xplorium-one.vercel.app)
 
 ## Task Brief 🌱
 
