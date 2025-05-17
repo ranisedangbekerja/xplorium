@@ -18,8 +18,8 @@ export default function HomePage() {
 
   return (
     <div 
-      className="min-h-screen bg-cover relative"
-      style={{ backgroundImage: "url('/Background.png')"}}
+      className="relative min-h-screen bg-center bg-cover"
+      style={{ backgroundImage: "url('/animationlandingpage.gif')"}}
     >
       {/* Sign In button */}
       <div className="absolute top-6 right-6">
@@ -34,13 +34,13 @@ export default function HomePage() {
       </div>
 
       {/* Centered content */}
-      <div className="flex flex-col items-center justify-center text-center min-h-screen px-4">
-        <h1 className={`text-4xl md:text-5xl text-yellow-400 font-bold mb-4 ${press.className}`}>
+      <div className="flex flex-col items-center justify-center min-h-screen px-4 text-center">
+        {/* <h1 className={`text-4xl md:text-5xl text-yellow-400 font-bold mb-4 ${press.className}`}>
           Xplorium, Xplore The Maximum
         </h1>
-        <p className="text-lg md:text-xl text-gray-50 mb-8">
+        <p className="mb-8 text-lg md:text-xl text-gray-50">
           Let your imagination run wild with <span className={`font-semibold text-sm text-yellow-400 ${press.className}`}>Plo</span>, our AI chatbot
-        </p>
+        </p> */}
 
         <Link href="/projects">
           <button className={`bg-yellow-400 hover:bg-yellow-500 hover:cursor-pointer text-white px-6 py-3 rounded-xl text-lg shadow-md transition ${press.className}`}>

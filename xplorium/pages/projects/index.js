@@ -35,19 +35,19 @@ export default function ProjectListPage() {
 
   return (
     <div 
-      className="min-h-screen bg-cover overflow-y-auto px-4 py-10"
+      className="h-screen px-4 py-10 overflow-y-auto bg-cover"
       style={{ backgroundImage: "url('/Background-night.png')" }}
     >
-      <div className="max-w-3xl mx-auto bg-white p-8 shadow-lg rounded-2xl space-y-8">
+      <div className="max-w-3xl p-8 mx-auto space-y-8 bg-white shadow-lg rounded-2xl">
         <h1 className={`text-2xl font-bold text-center mb-6 ${press.className}`}>Your Xplorium Projects</h1>
         
         <ul className="space-y-4">
           {projects.map(project => (
-            <li key={project.id} className="bg-blue-100 hover:bg-blue-200 transition rounded p-4 shadow">
+            <li key={project.id} className="p-4 transition bg-blue-100 rounded shadow hover:bg-blue-200">
               <Link href={`/projects/${project.id}`}>
                 <div>
                   <h2 className={`text-sm font-semibold text-[#0180FF] ${press.className}`}>{project.title}</h2>
-                  <p className="text-gray-600 text-sm mt-1">{project.description.slice(0, 100)}...</p>
+                  <p className="mt-1 text-sm text-gray-600">{project.description.slice(0, 100)}...</p>
                 </div>
               </Link>
             </li>

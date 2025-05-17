@@ -28,7 +28,7 @@ export default function ProjectDetailPage() {
 
   if (!project) {
     return (
-      <div className="flex items-center justify-center min-h-screen bg-gray-50 text-gray-700">
+      <div className="flex items-center justify-center min-h-screen text-gray-700 bg-gray-50">
         <p className={`text-lg ${press.className}`}>Loading your adventure...</p>
       </div>
     );
@@ -36,20 +36,20 @@ export default function ProjectDetailPage() {
 
   return (
     <div 
-      className="min-h-screen bg-gradient-to-br bg-cover bg-right px-6 py-10 text-gray-800"
-      style={{ backgroundImage: "url('/Background.png')" }}  
+      className="h-screen px-6 py-10 overflow-y-auto text-gray-800 bg-center bg-cover"
+      style={{ backgroundImage: "url('/background.png')" }}  
     >
-      <div className="max-w-3xl mx-auto bg-white shadow-xl rounded-2xl p-8 border border-blue-200">
+      <div className="max-w-3xl p-8 mx-auto bg-white border border-blue-200 shadow-xl rounded-2xl">
         {/* Title */}
         <h1 className={`text-2xl text-center font-bold text-[#0180FF] mb-4 ${press.className}`}>{project.title}</h1>
 
         {/* Description */}
-        <p className="text-lg mb-6 text-gray-700">{project.description}</p>
+        <p className="mb-6 text-lg text-gray-700">{project.description}</p>
 
         {/* Preparations */}
         <div className="mb-8">
           <h2 className={`text-md font-semibold text-[#0180FF] mb-2 ${press.className}`}>What you'll need</h2>
-          <ul className="list-inside space-y-1 text-gray-800">
+          <ul className="space-y-1 text-gray-800 list-inside">
             {project.prepare.map((item, idx) => (
               <li key={idx} className="pl-2">{item}</li>
             ))}
@@ -59,14 +59,14 @@ export default function ProjectDetailPage() {
         {/* Steps */}
         <div>
           <h2 className={`text-md font-semibold text-[#0180FF] mb-2 ${press.className}`}>Let's get started!</h2>
-          <ol className="list-inside space-y-2 text-gray-800">
+          <ol className="space-y-2 text-gray-800 list-inside">
             {project.steps.map((step, idx) => (
               <li key={idx} className="pl-2">{step}</li>
             ))}
           </ol>
         </div>
 
-        <div className="mt-4 flex">
+        <div className="flex mt-4">
           <button
             className={`text-xm px-4 py-2 rounded border cursor-pointer hover:bg-gray-200 ${press.className}`}
             onClick={() => handleBackButton()}  
