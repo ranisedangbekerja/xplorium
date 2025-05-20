@@ -189,5 +189,55 @@
       "4. Experiment! Try using different colors, different amounts of milk or soap. What happens if you use more or less soap?",
       "5. Have fun exploring the amazing science behind the colorful swirls!"
     ]
+  },
+  {
+    "id": "e3582610-c93c-4ba2-8367-dca2bd98e5b6",
+    "title": "Robo-Bug Dance Party!",
+    "description": "Get ready to build your own dancing robot bugs! This project is super fun and lets you explore how simple machines work while creating a cool dance party. Let's get started, Xplorer!",
+    "prepare": [
+      "1. Cardboard (cereal boxes or shoe boxes work great!)",
+      "2. Small motor (you can find these in toy stores or online)",
+      "3. Battery (a small 9V battery is perfect)",
+      "4. Pipe cleaners (different colors are awesome!)",
+      "5. Googly eyes",
+      "6. Glue",
+      "7. Scissors",
+      "8. Markers or crayons",
+      "9. Tape"
+    ],
+    "steps": [
+      "1. Design your Robo-Bug: Draw your bug's body on the cardboard. Get creative with shapes and sizes!  Think about how many legs you want your bug to have.",
+      "2. Cut out the body: Carefully cut out the bug shape you drew. Ask a grown-up to help if you need it with the scissors.",
+      "3. Attach the motor:  Decide where the motor will go on the bug's body. Use tape to attach it securely.  Make sure the motor shaft (the little stick that spins) is sticking out a little so we can attach the legs.",
+      "4. Make the legs: Cut pipe cleaners into different lengths for legs.  The length will influence how high and far your bug will move. Experiment!",
+      "5. Attach the legs to the motor: Carefully bend the pipe cleaners and attach them to the motor shaft. You can use a tiny bit of glue or tape for extra security.",
+      "6. Add the battery:  Connect the wires from the motor to the battery. Ask a grown-up to help with this step, as it involves making sure the connections are secure and safe.",
+      "7. Decorate your Robo-Bug: Use markers, crayons, and googly eyes to give your Robo-Bug a fun personality!",
+      "8. Test and Tune: Turn on the motor! Watch your Robo-Bug dance! If the legs don't move well, you might need to adjust them a little.  Keep tweaking until your Robo-Bug has the best moves!",
+      "9. Robo-Bug Dance Party!: Get your friends together and have a Robo-Bug dance party! You can make more bugs to join the fun!"
+    ]
+  },
+  {
+    "id": "eef6315d-ce37-434f-8f89-9867e9bd777d",
+    "title": "Homemade Lava Lamps!",
+    "description": "Let's make a mesmerizing lava lamp that's both fun and educational! We'll explore density and convection – cool science concepts that make the lamp work. Get ready to be amazed!",
+    "prepare": [
+      "1. A tall, clear glass bottle or container (like a recycled glass jar)",
+      "2. Vegetable oil",
+      "3. Water",
+      "4. Food coloring (your favorite color!)",
+      "5. Alka-Seltzer tablets (or similar fizzy tablets)",
+      "6. A small decorative item (optional, like beads or glitter)",
+      "7. Flashlight or lamp (optional, for cool light effects)"
+    ],
+    "steps": [
+      "1. Fill the bottle almost all the way with vegetable oil. Leave a little space at the top.",
+      "2. Add water to the bottle, filling it about 1/4 of the way. You'll notice the water sinks to the bottom – that's because it's denser than the oil!",
+      "3. Add a few drops of food coloring. Watch it mix with the water!",
+      "4. Carefully add your decorative item(s), if using. Then, add half an Alka-Seltzer tablet.",
+      "5. Watch the magic! As the tablet fizzes, it creates bubbles that carry the colored water upwards.  The bubbles pop at the top, and the colored water slowly sinks back down – creating a lava-like effect!",
+      "6. To make it last longer, add more Alka-Seltzer tablets.  Keep observing and experimenting.  How many tablets can you add before the effect stops?  What happens if you use more or less water or oil?",
+      "7. (Optional) Shine a flashlight or lamp behind your lava lamp for an even more dramatic effect!"
+    ]
   }
 ]

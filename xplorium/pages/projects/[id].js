@@ -37,7 +37,7 @@ export default function ProjectDetailPage() {
   return (
     <div 
       className="h-screen px-6 py-10 overflow-y-auto text-gray-800 bg-center bg-cover"
-      style={{ backgroundImage: "url('/background.png')" }}  
+      style={{ backgroundImage: "url('/Background.png')" }}  
     >
       <div className="max-w-3xl p-8 mx-auto bg-white border border-blue-200 shadow-xl rounded-2xl">
         {/* Title */}
